@@ -1,0 +1,964 @@
+/*!
+ * Mystyle css - 3 (https://developer.acrobet.in/MyStyle/v3)
+ * Copyright 2018-2024 Acrobet Inc..
+ * Licensed under AI (https://acrobet.in)
+ */
+
+/* Creater: Sarthak Sharma
+   "sarthaksharma750@gmail.com"
+   Owner: Acrobet incorporate Pvt, Lmt, Co.
+*/
+
+--------------------------------------------------------------------------------------------
+/*
+
+ Short Words to remember:  
+
+cont = container
+fx = fixed
+btm = bottom
+br = border
+txt = text (in color of text)
+lt = light
+
+*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+ html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+i{
+	font-style: italic;
+}
+
+u{
+	text-decoration: underline;
+}
+
+small {
+  font-size: 80%;
+}
+
+h1 {
+  margin: .67em 0;
+  font-size: 2em;
+}
+
+p{
+	font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+h1{
+	font-size: 35px;
+}
+
+h2{
+	font-size: 28px;
+}
+
+p{
+	font-size: 20px;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color: blue;
+	text-decoration: none;
+	transition: 0.3s ease;
+}
+
+img {
+    max-width: 100% !important;
+    page-break-inside: avoid;
+ }
+
+
+ .circle{
+ 	border-radius: 50%;
+ }
+
+ .left{
+ 	text-align: left;
+ 	align-items: left;
+ }
+ .right{
+ 	text-align: right;
+ 	align-items: center;
+ }
+
+.center{
+	text-align: center;
+	align-items: center;
+	margin: auto;
+}
+.oneline{
+	display: inline-block;
+}
+
+
+
+  /* ------------------ Background -----------------------------*/
+
+
+
+.red{
+	background: red;
+	color: white;
+}
+
+.blue{
+	color: #fff;
+  background-color: rgb(0, 81, 255);
+}
+
+.green{
+	background: green;
+	color: white;
+}
+
+.yellow{
+	background: yellow;
+	color: red;
+}
+
+.black{
+	background: black;
+	color: white;
+}
+
+.white{
+	background: white;
+	color: black;
+}
+
+.grey{
+	background: grey;
+}
+.dk-grey{
+    background: rgb(44, 44, 44);
+}
+
+.skyblue{
+	background: skyblue;
+	color: black;
+}
+
+.dk-blue{
+	background: rgb(0, 26, 255);
+	color: white;
+}
+.orange{
+    background: orange;
+}
+
+.pink{
+	background: pink;
+}
+.lt-grey{
+	background: darkgrey;
+}
+.brown{
+	background: brown;
+}
+
+.white{
+   background: white;
+
+}
+.gold{
+	background: gold;
+}
+.orange{
+        background: orange;
+}
+.purple{
+        background:purple;
+        color:white;
+}
+.lt-purple{
+	background: #b19cd9;
+}
+.voilet{
+        background: voilet;
+}
+.lt-green{
+	background: lightgreen;
+}
+
+.trans{
+	background: rgba(255,255,255,0.4);
+}
+.glass{
+	background: #f6ffff;
+}
+
+/*-----opacity-----*/
+
+.op-1{
+	opacity: 0.2;
+}
+.op-2{
+	opacity: 0.4;
+}
+.op-3{
+	opacity: 0.6;
+}
+.op-4{
+	opacity: 0.8;
+}
+
+
+   /* ------------------------ Text-Colour -----------------------------*/
+
+
+
+
+.txt-red{
+	color: red;
+}
+
+.txt-blue{
+	color: #337ab7;
+}
+.txt-blue-lt{
+    color: #98cfff;
+}
+
+.txt-green{
+	color: green;
+}
+
+.txt-yellow{
+	color: yellow;
+}
+
+.txt-grey{
+	color: grey;
+}
+.txt-grey-lt{
+	color: darkgrey;
+}
+.txt-grey-dk{
+    color: rgba(0,0,0,0.8);
+}
+
+.txt-orange{
+	color: orange;
+}
+
+.txt-pink{
+	color: pink;
+}
+.txt-gold{
+	color: gold;
+}
+.txt-white{
+        color: white;
+}
+.txt-black{
+        color: black;
+}
+.txt-purple{
+        color: purple;
+}
+
+
+/*-----------box-sadows---------*/
+
+.shadow-0{
+	box-shadow: none;
+}
+.shadow-low{
+	box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.1);
+}
+.shadow-1{
+	box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.2);
+}
+.shadow-2{
+	box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.3);
+}
+.shadow-3{
+	box-shadow: 0px 0px 30px 2px rgba(0,0,0,0.3);
+}
+.shadow-4{
+	box-shadow: 0px 0px 30px 2px rgba(0,0,0,0.4);
+}      
+
+         /* ---------------------- Containers -----------------------------*/
+
+
+
+
+.cont{
+	width: 100%;
+}
+.cont-90{
+	width: 90%;
+	margin: auto;
+	margin-top: 60px;
+	margin-bottom: 40px;
+
+}
+.cont-50{
+    width: 50%;
+	margin: auto;
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+.cont-40{
+    width: 40%;
+	margin: auto;
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+.cont-30{
+    width: 30%;
+	margin: auto;
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+.cont-80{
+    width: 80%;
+	margin: auto;
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+.cont-60{
+    width: 60%;
+	margin: auto;
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+
+.cont-R{
+	width: 90%;
+	border-radius: 30px;
+	margin: auto;
+	margin-top: 60px;
+	margin-bottom: 40px;
+
+}
+
+/*------------------ Container-heights ------------------*/
+
+.h-40{
+	height: 40px;
+}
+.h-50{
+	height: 50px;
+}
+.h-80{
+	height: 80px;
+}
+.h-100{
+	height: 100px;
+}
+.h-100vh{
+	height: 100vh;
+}
+.h-150{
+height: 150px;
+}
+.h-200{
+	height: 200px;
+}
+.h-300{
+	height: 300px;
+}
+.h-400{
+	height: 400px;
+}
+.h-500{
+	height: 500px;
+}
+.h-800{
+	height: 100px;
+}
+
+.h-100{
+	height: 100px;
+}
+.h-full{
+	height: 100vh;
+}
+
+
+.cont-fx{
+    position: fixed;
+}
+.realtive{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+
+.fx-top{
+position: fixed;
+left: 0px;
+top: 0px;
+}
+
+.fx-btm{
+position: fixed;
+left: 0px;
+bottom: 0px;
+}
+
+.title{
+	font-size: 30px;
+	font-weight: bold;
+	margin: 10px;
+	display: inline-block;
+}
+
+
+.sidebar{
+    height: 98vh;
+    position: fixed;
+    width: 200px;
+    left: 0px;
+    top: 80px;
+    box-shadow: 3px 10px 20px 3px rgba(0,0,0,0.2) ;
+}
+.sidebar-2{
+    height: 70vh;
+    border-radius: 50px;
+    width: 70px;
+    left: 30px;
+    top: 20vh;
+    position: fixed;
+    box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.2) ;
+}
+.sidebar-full{
+    height: 98vh;
+    position: fixed;
+    width: 280px;
+    left: 0px;
+    top: 80px;
+    box-shadow: 3px 10px 20px 3px rgba(0,0,0,0.2) ;
+}
+
+.sidebar-small{
+    height: 98vh;
+    position: fixed;
+    width: 80px;
+    left: 0px;
+    top: 80px;
+    box-shadow: 3px 10px 20px 3px rgba(0,0,0,0.2) ;
+}
+
+
+/*-------- Blur Background ----------------------*/
+
+.blur-1{
+    backdrop-filter: blur(2px);
+}
+.blur-2{
+    backdrop-filter: blur(5px);
+}
+.blur-3{
+    backdrop-filter: blur(8px);
+}
+
+
+/*------ Border - Radius --------------------*/
+
+
+.circle{
+    border-radius: 50%;
+}
+.rd-top{
+    border-radius: 40px 40px 0px 0px;
+}
+.rd-bottom{
+    border-radius: 00px 0px 40px 40px;
+}
+.rd-left{
+    border-radius: 40px 0px 0px 40px;
+}
+
+.rd-right{
+    border-radius: 00px 30px 30px 0px;
+}
+
+.rd-1{
+	border-radius: 15px;
+}
+
+.rd-2{
+	border-radius: 30px;
+}
+
+.rd-3{
+	border-radius: 40px;
+}
+
+.rd-4{
+	border-radius: 50px;
+}
+
+.section{
+    width: 100%;
+    height: 105vh;
+}
+
+
+section{
+	width:100%;
+	height: 95vh;
+}
+
+li{
+	list-style: none;
+}
+
+.ul-menu{
+	float: right;
+	width: 60%;
+	margin-right: 20px;
+    margin-top: 20px;
+}
+
+.li-menu{
+	list-style: none;
+	margin: 8px;
+	width: 160px;
+	height: 32px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	display: inline-block;
+    vertical-align: top;
+
+}
+.li-menu a{
+    font-size: 24px;
+}
+
+.li-menu:hover{
+	font-size: 24px;
+	transition: 0.4s ease;
+}
+
+.li-menu-active{
+	font-size: 28px;
+	list-style: none;
+	margin: 8px;
+	width: 110px;
+	height: 32px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	display: inline-block;
+}
+
+.logo-txt{
+	font-size: 45px;
+	display: inline-block;
+	margin: 15px;
+	margin-left: 35px;
+    vertical-align:top;
+}
+.logo-txt-sub{
+    font-size: 24px;
+	display: inline-block;
+	margin: 35px;
+	margin-left: 10px;
+    vertical-align:top;
+}
+.logo-img{
+    height: 55px;
+    margin-top: 13px;
+    margin-left: 40px;
+    vertical-align: center;
+}
+.user-menu{
+    display: inline-block;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.2);
+    vertical-align: bottom;
+    margin-top: 15px;
+    margin-right: 20px;
+    position: absolute;
+    right: 40px;
+}
+
+.btn{
+	height: 50px;
+	border: none;
+	width: 200px;
+	font-size: 25px;
+	text-align: center;
+	display: inline-block;
+	margin: 10px;
+}
+
+
+.btn-sml{
+	height: 36px;
+	border: none;
+	border-radius: 5px;
+	width: 135px;
+	font-size: 21px;
+	text-align: center;
+	display: inline-block;
+	margin: 10px;
+}
+
+.btn-xl{
+	height: 55px;
+	border: none;
+	width: 277px;
+	font-size: 30px;
+	text-align: center;
+	display: inline-block;
+	margin: 10px;
+}
+
+label{
+	font-size: 25px;
+	margin-left: 10px;
+	
+}
+
+input{
+	width: 80%;
+	height: 55px;
+	font-size: 22px;
+	border: 2px solid black;
+	margin-top: 5px;
+	margin-bottom: 22px;
+	padding: 10px;
+}
+input:focus{
+    outline: none;
+}
+
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 4px 0 0;
+  margin-top: 1px \9;
+  line-height: normal;
+}
+
+input[type="file"] {
+  display: block;
+}
+
+
+.social-li{
+	width: 50px;
+	height: 50px;
+	margin: 20px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	display: inline-block;
+}
+
+.social-ul{
+	margin: auto;
+
+}
+
+.copyright-txt{
+	font-size: 18px;
+	margin: auto;
+}
+
+/*-------- Nav Bars----------------*/
+
+.nav{
+	width: 100%;
+	height: 80px;
+    transition: 0.3s ease;
+}
+
+.nav-h60{
+    width: 100%;
+	height: 80px;
+}
+.nav-h100{
+    width: 100%;
+	height: 100px;
+}
+.nav-h50{
+    width: 100%;
+	height: 80px;
+}
+
+
+.nav-sticky{
+    width: 100%;
+	height: 80px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+/*----------- Responsive for PC -------------------------*/
+
+.pc{
+	display: inline-block;
+}
+.mobile{
+	display: none;
+}
+
+ /* ---------------------------- Borders ---------------------------------*/
+
+.nav-br-dark{
+	border-bottom: 2px solid black;
+}
+
+.nav-br-light{
+	border-bottom: 2px solid white;
+}
+.br-none{
+	border: none;
+}
+
+/*-------red-border-------*/
+
+.br-red{
+	border: 2px solid red;
+}
+.br1-red{
+	border-top: 2px solid red;
+}
+.br2-red{
+	border-right: 2px solid red;
+}
+.br3-red{
+	border-bottom: 2px solid red;
+}
+.br4-red{
+	border-left: 2px solid red;
+}
+
+/*-------blue-border-------*/
+
+.br-blue{
+	border: 2px solid blue;
+}
+.br4-blue{
+	border-left: 2px solid blue;
+}
+.br2-blue{
+	border-right: 2px solid blue;
+}
+.br1-blue{
+	border-top: 2px solid blue;
+}
+.br3-blue{
+	border-bottom: 2px solid blue;
+}
+
+/*-------black-border------*/
+
+.br-black{
+	border: 2px solid black;
+}
+.br4-black{
+	border-left: 2px solid black;
+}
+.br2-black{
+	border-right: 2px solid black;
+}
+.br1-black{
+	border-top: 2px solid black;
+}
+.br3-black{
+	border-bottom: 2px solid black;
+}
+
+/*-----green-border-------*/
+
+.br-green{
+	border: 2px solid green;
+}
+.br4-green{
+	border-left: 2px solid green;
+}
+.br2-green{
+	border-right: 2px solid green;
+}
+.br1-green{
+	border-top: 2px solid green;
+}
+.br3-green{
+	border-bottom: 2px solid green;
+}
+
+/*-----white-border-----*/
+
+.br-white{
+	border: 2px solid white;
+}
+.br4-white{
+	border-left: 2px solid white;
+}
+.br2-white{
+	border-right: 2px solid white;
+}
+.br1-white{
+	border-top: 2px solid white;
+}
+.br3-white{
+	border-bottom: 2px solid white;
+}
+
+/*-----grey-border----*/
+
+.br-grey{
+	border: 2px solid grey;
+}
+.br4-grey{
+	border-left: 2px solid grey;
+}
+.br2-grey{
+	border-right: 2px solid grey;
+}
+.br1-grey{
+	border-top: 2px solid grey;
+}
+.br3-grey{
+	border-bottom: 2px solid grey;
+}
+
+/*-------other-borders-----*/
+
+.br-yellow{
+	border: 2px solid yellow;
+}
+.br-gold{
+    border: 2px solid gold;
+}
+
+.br-pink{
+	border: 2px solid pink;
+}
+
+.br-purple{
+	border: 2px solid purple;
+}
+
+.br-orange{
+	border: 2px solid orange;
+}
+
+.br-golden{
+	border:  2px solid gold;
+}
+
+.br-brown{
+	border: 2px solid brown;
+}
+
+/*-------------------------------------End of Borders------------------------------------*/
+
+
+
+.bg-img{
+	background-repeat: no-repeat;
+	background-size: 50% 50%;
+}
+
+form{
+	margin-left: 20px;
+	margin-top: 50px;
+}
+
+.img-box{
+	border-radius: 30px;
+	display: inline-block;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	margin: 20px;
+}
+.center{
+       margin:auto;
+}
+
+@media only screen and (max-width: 980px){
+			
+
+			
+
+			.title{
+				font-size: 50px;
+			}
+			
+			h2{
+				font-size: 35px;
+			}
+
+			.pc{
+				display: none;
+			}
+			.mobile{
+				display: inline-block;
+			}
+            .ul-menu{
+                display: none;
+            }
+
+			a{
+				font-size: 25px;
+			}
+			.logo-txt{
+				margin-left: 15px;
+			}
+
+		}
+
+
